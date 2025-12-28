@@ -1,0 +1,43 @@
+{
+  "_resourceType": "actor",
+  "id": "e63a0fb5-2d9e-4a85-9ba0-e711e6de6cdc",
+  "_index": 0,
+  "symbol": "actor_sign_post_5",
+  "prefabId": "",
+  "name": "Sign Post",
+  "x": 7,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "line1-var_TEST000001\nline2-var_TEST000002\nline3-var_TEST000003"
+        ],
+        "avatarId": "",
+        "__section": "layout",
+        "minHeight": 5,
+        "maxHeight": 8,
+        "textX": 1,
+        "textY": 1
+      },
+      "id": "bca7e9ec-e3bf-4fb6-b79e-88527e878ef6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
